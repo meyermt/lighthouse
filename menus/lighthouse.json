@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle lighthouse",
+        "command": "lighthouse:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "lighthouse",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "lighthouse:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
